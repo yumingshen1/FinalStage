@@ -8,6 +8,11 @@ import requests,io
 import pandas as pd
 from io import StringIO
 
+'''
+lxml(etree)
+ bs4(beautifulsoup)
+ re
+ '''
 
 class TextCrawlerOne:
     url = 'http://finance.sina.com.cn/zt_d/subject-1667873035/'
