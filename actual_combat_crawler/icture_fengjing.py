@@ -37,7 +37,6 @@ class DownladPicture:
          #创建文件路径
          if not os.path.exists(self.path):
              os.makedirs(self.path)
-
          #保存图片
          i = 0
          http = 'https://pic.netbian.com'
@@ -54,7 +53,6 @@ class DownladPicture:
                      print(f"HTTP Error: {e.code}")
              except Exception as e:
                  print(f"An error occurred: {e}")
-
 
      # def start_download(self,url,headers):
      #     content = self.get_picture(url,headers)
