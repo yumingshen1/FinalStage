@@ -1,7 +1,7 @@
 # -*- coding:utf-8 -*-
 # @Time : 2024/6/3 22:00
 # Auther : shenyuming
-# @File : firstCrawler.py
+# @File : first_crawler.py
 # @Software : PyCharm
 
 import requests,io
