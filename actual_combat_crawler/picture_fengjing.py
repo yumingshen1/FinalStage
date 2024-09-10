@@ -34,7 +34,6 @@ class DownladPicture:
          with request.urlopen(req) as response:
              conten = response.read()
          return conten
-
      #读取图片内容并下载
      def creading_img(self,content):
          reg_result=re.compile(r'src="(.*?.jpg)" alt=".*?">')
@@ -44,7 +43,6 @@ class DownladPicture:
          html_content = content.decode(detected_encoding, errors='replace')
          #图片链接
          image_list = re.findall(reg_result,html_content)
-
          #创建文件路径
          if not os.path.exists(self.path):
              os.makedirs(self.path)
